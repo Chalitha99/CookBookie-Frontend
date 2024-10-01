@@ -1,4 +1,5 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
+import { Link } from "react-router-dom";
 import React, { useState } from "react";
 import Logo from "../Assets/Logo.png";
 import { BsCart2 } from "react-icons/bs";
@@ -54,8 +55,12 @@ const Navbar = () => {
         {/* <a href="">
           <BsCart2 className="navbar-cart-icon" />
         </a> */}
-        <button className="primary-button">Login</button>
-        <button className="primary-button">Signup</button>
+        <Link to="/login">
+      <button className="primary-button">Login</button>
+      </Link>
+      <Link to="/signup">
+      <button className="primary-button">Signup</button>
+      </Link>
       </div>
       <div className="navbar-menu-container">
         <HiOutlineBars3 onClick={() => setOpenMenu(true)} />
