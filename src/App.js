@@ -7,7 +7,7 @@ import Recipes from "./Components/Recipes";
 import Reviews from "./Components/Reviews";
 import Contact from "./Components/Contact";
 import Footer from "./Components/Footer";
-
+import LoginP from "./Components/LoginP";
 function App() {
   return (
     <Router>
@@ -19,6 +19,7 @@ function App() {
           <Route path="/recipes" element={<Recipes />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/reviews" element={<Reviews/>} />
+          <Route path="/login" element={<LoginP/>}/>
 
         </Routes>
         <Footer />
