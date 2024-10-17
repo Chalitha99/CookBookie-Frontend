@@ -4,6 +4,23 @@
   box-sizing: border-box;
   font-family: "Reem Kufi", sans-serif !important;
 }
+.search-input {  
+  background-color: #fff;  
+  border-radius: 25px;  
+  padding: 10px 20px;   
+  transition: border-color 0.3s, box-shadow 0.3s;   
+  width: 250px;  
+}  
+
+.search-input:focus {  
+  border-color: #f9c77d;  
+  box-shadow: 0 0 5px rgba(255, 140, 0, 0.5);   
+}  
+
+.search-input::placeholder {  
+  color: #a0aec0;  
+  opacity: 1;   
+}
 img {
   max-width: 100%;
   height: auto;
@@ -11,7 +28,7 @@ img {
 .App {
   min-height: 100vh;
   width: 85vw;
-  max-width: 1900px;
+  max-width: 3900px;
   margin: 0rem auto;
 }
 body {

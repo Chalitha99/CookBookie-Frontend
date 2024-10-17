@@ -37,10 +37,7 @@ const Navbar = () => {
       text: "Contact",
       icon: <PhoneRoundedIcon />,
     },
-    {
-      text: "Cart",
-      icon: <ShoppingCartRoundedIcon />,
-    },
+    
   ];
   return (
     <nav>
@@ -50,6 +47,7 @@ const Navbar = () => {
       <div className="navbar-links-container">
       <a href="/">Home</a>
       <a href="/recipes">Recipes</a>
+      <a href="/profile">Profile</a>
       <a href="/about">About</a>
       <a href="/contact">Contact</a>
         {/* <a href="">
@@ -57,9 +55,6 @@ const Navbar = () => {
         </a> */}
         <Link to="/login">
       <button className="primary-button">Login</button>
-      </Link>
-      <Link to="/signup">
-      <button className="primary-button">Signup</button>
       </Link>
       </div>
       <div className="navbar-menu-container">
