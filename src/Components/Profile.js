@@ -71,22 +71,23 @@ export default function Example() {
                 />
               </div>
             </div>
-
-           
-              <div className="sm:col-span-4">
+            <div className="sm:col-span-3">
               <label htmlFor="first-name" className="block text-sm font-medium leading-6 text-gray-900">
                 New Password
               </label>
               <div className="mt-2">
                 <input
-                  id="newpw"
-                  name="newpw"
+                  id="npw"
+                  name="npw"
                   type="password"
                   autoComplete="given-name"
-                  className="block w-full rounded-md border-0 py-1.5 text-yellow-900 shadow-sm ring-1 ring-inset ring-yellow-300 placeholder:text-yellow-400 focus:ring-2 focus:ring-inset focus:ring-yellow-600 sm:text-sm sm:leading-6"
+                  className="block w-full rounded-md border-0 py-1.5 text-yellow-900 shadow-sm ring-1 ring-inset ring-yellow-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-yellow-600 sm:text-sm sm:leading-6"
                 />
               </div>
             </div>
+
+           
+             
             
             
           </div>
