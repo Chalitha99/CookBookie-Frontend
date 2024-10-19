@@ -9,10 +9,9 @@ import Contact from "./Components/Contact";
 import Footer from "./Components/Footer";
 import LoginP from "./Components/LoginP";
 import SignUp from "./Components/Signup";
-// import Profile from "./Components/Profile";
-// import MyRecipes from './Components/MyRecipes';
-// import ProfileDetails from "./Components/ProfileDetails";
  import ProfilePage from "./Pages/ProfilePage";
+ import PublishPage from "./Pages/PubishPage";
+ import HistoryPage from "./Pages/HistoryPage";
 function App() {
   return (
     <Router>
@@ -26,10 +25,9 @@ function App() {
           <Route path="/reviews" element={<Reviews/>} />
           <Route path="/login" element={<LoginP/>}/>
           <Route path="/signup" element={<SignUp/>}/>
-          {/* <Route path="/profile" element={<Profile/>}/>
-          <Route path="/details" element={<ProfileDetails />} />
-          <Route path="/myrecipes" element={<MyRecipes />} />*/
-          <Route path="/profile" element={<ProfilePage />} /> }
+          <Route path="/profile" element={<ProfilePage />} /> 
+          <Route path="/publish" element={<PublishPage/>}/>
+          <Route path="/history" element={<HistoryPage />} />
 
         </Routes>
         <Footer />

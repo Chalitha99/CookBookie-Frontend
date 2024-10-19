@@ -66,7 +66,7 @@ export default function SideNavigationBasic() {
             <ul className="flex flex-1 flex-col gap-3 py-4">
               <li className="px-3">
                 <a
-                  href="#"
+                  href="/"
                   className="flex items-center gap-8 rounded p-3 text-slate-700 transition-colors hover:bg-yellow-50 hover:text-yellow-500 focus:bg-yellow-50 aria-[current=page]:bg-yellow-50 aria-[current=page]:text-yellow-500 "
                 >
                   <div className="flex items-center self-center">
@@ -88,7 +88,7 @@ export default function SideNavigationBasic() {
                     </svg>
                   </div>
                   <div className="flex w-full flex-1 flex-col items-start justify-center gap-0 overflow-hidden truncate text-sm">
-                    Dashboard
+                    Home
                   </div>
                 </a>
               </li>
@@ -115,13 +115,13 @@ export default function SideNavigationBasic() {
                     </svg>
                   </div>
                   <div className="flex w-full flex-1 flex-col items-start justify-center gap-0 overflow-hidden truncate text-sm">
-                    Calendar
+                    Profile Settings
                   </div>
                 </a>
               </li>
               <li className="px-3">
                 <a
-                  href="#"
+                  href="/publish"
                   className="flex items-center gap-8 rounded p-3 text-slate-700 transition-colors hover:bg-yellow-50 hover:text-yellow-500 focus:bg-yellow-50 aria-[current=page]:bg-yellow-50 aria-[current=page]:text-yellow-500 "
                 >
                   <div className="flex items-center self-center ">
@@ -148,7 +148,7 @@ export default function SideNavigationBasic() {
              
               <li className="px-3">
                 <a
-                  href="#"
+                  href="/history"
                   className="flex items-center gap-8 rounded p-3 text-slate-700 transition-colors hover:bg-yellow-50 hover:text-yellow-500 focus:bg-yellow-50 aria-[current=page]:bg-yellow-50 aria-[current=page]:text-yellow-500"
                 >
                   <div className="flex items-center self-center ">
@@ -170,7 +170,7 @@ export default function SideNavigationBasic() {
                     </svg>
                   </div>
                   <div className="flex w-full flex-1 flex-col items-start justify-center gap-0 overflow-hidden truncate text-sm">
-                    Team
+                    History
                   </div>
                 </a>
               </li>
