@@ -1,8 +1,12 @@
+import React from 'react';
 import Sidebar from '../Components/Sidebar';
 import Publish from '../Components/Publish';
+import Navbar from "../Components/Navbar";
 
 export default function PublishPage() {
   return (
+    <>
+    <Navbar />
     <div className='container-fluid'>
       <div className='row'>
         {/* Sidebar */}
@@ -20,5 +24,6 @@ export default function PublishPage() {
         </div>
       </div>
     </div>
+    </>
   );
 }

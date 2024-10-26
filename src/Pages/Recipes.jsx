@@ -1,13 +1,12 @@
 import React from "react";  
-import Navbar from "./Navbar";  // Assuming you still want to keep the Navbar  
+import Navbar from "../Components/Navbar";  // Assuming you still want to keep the Navbar  
 import RecipeBg2 from "../Assets/loginpage.jpg"; // You can choose to keep this or remove it based on your needs  
-import FormElementsSearchRoundedBaseBasic from "./SearchBar"; // Importing the search bar component  
+import FormElementsSearchRoundedBaseBasic from "../Components/SearchBar"; // Importing the search bar component  
 const About = () => {  
-  return (  
+  return ( 
+    <>
+    <Navbar />
     <div>  
-      <Navbar />  
-      
-      {/* Search Bar Section */}  
       <div className="search-bar-container flex justify-end">  
   <FormElementsSearchRoundedBaseBasic className="search-input" />  
 </div>  
@@ -73,7 +72,8 @@ const About = () => {
           </div>  
         </div>  
       </section>  
-    </div>  
+    </div> 
+    </>  
   );  
 };  
 

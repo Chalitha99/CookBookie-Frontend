@@ -1,10 +1,15 @@
 import React from "react";
 import signuppage from '../Assets/signuppage.jpg'; 
 import Logo from '../Assets/Logo.png'; 
+import Navbar from "../Components/Navbar";
 
 const SignUp = () => {
     return (
+       
+       <> 
+       <Navbar/>
         <div className="flex items-center justify-center min-h-screen bg-gray-100 dark:bg-gray-900">
+        
             <div className="flex w-full max-w-sm mx-auto overflow-hidden bg-white rounded-lg shadow-lg dark:bg-gray-800 lg:max-w-4xl">
                 <div className="w-full px-6 py-8 md:px-8 lg:w-1/2">
                     <div className="flex justify-center mx-auto">
@@ -67,6 +72,7 @@ const SignUp = () => {
                 <div className="hidden bg-cover lg:block lg:w-1/2" style={{ backgroundImage: `url(${signuppage})` }}></div>
             </div>
         </div>
+        </>
     );
 };
 

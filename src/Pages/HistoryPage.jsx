@@ -1,8 +1,11 @@
 import Sidebar from '../Components/Sidebar';
 import History from '../Components/History';
+import Navbar from "../Components/Navbar";
 
 export default function HistoryPage() {
   return (
+    <>
+    <Navbar/>
     <div className='container-fluid'>
       <div className='row'>
         {/* Sidebar */}
@@ -20,5 +23,6 @@ export default function HistoryPage() {
         </div>
       </div>
     </div>
+    </>
   );
 }

@@ -1,23 +1,26 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Routes} from "react-router-dom";
 import "./App.css";
-import Home from "./Components/Home";
-import About from "./Components/About";
-import Recipes from "./Components/Recipes";
-import Reviews from "./Components/Reviews";
-import Contact from "./Components/Contact";
+import Home from "./Pages/Home";
+import About from "./Pages/About";
+import Recipes from "./Pages/Recipes";
+import Reviews from "./Pages/Reviews";
+import Contact from "./Pages/Contact";
 import Footer from "./Components/Footer";
-import LoginP from "./Components/LoginP";
-import SignUp from "./Components/Signup";
- import ProfilePage from "./Pages/ProfilePage";
- import PublishPage from "./Pages/PubishPage";
- import HistoryPage from "./Pages/HistoryPage";
+import LoginP from "./Pages/LoginP";
+import SignUp from "./Pages/Signup";
+import ProfilePage from "./Pages/ProfilePage";
+import PublishPage from "./Pages/PubishPage";
+import HistoryPage from "./Pages/HistoryPage";
+
 function App() {
   return (
     <Router>
       <div className="App">
       
+        
         <Routes>
+         
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/recipes" element={<Recipes />} />
@@ -37,4 +40,3 @@ function App() {
 }
 
 export default App;
-

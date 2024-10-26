@@ -1,15 +1,15 @@
 import React from "react";
 import BannerBackground from "../Assets/home-banner-background.png";
 import BannerImage from "../Assets/home-banner-image.png";
-import Navbar from "./Navbar";
-import Reviews from "./Reviews";
+import Navbar from "../Components/Navbar";
+import ReviewComp from "../Components/ReviewsComp";
 import { FiArrowRight } from "react-icons/fi";
 
 
 const Home = () => {
   return (
-    <div className="home-container">
-     <Navbar />
+   <div className="home-container">
+      <Navbar />
       <div className="home-banner-container">
         <div className="home-bannerImage-container">
           <img src={BannerBackground} alt="" />
@@ -30,9 +30,9 @@ const Home = () => {
           <img src={BannerImage} alt="" />
         </div>
       </div>
-      <Reviews></Reviews>
+     <ReviewComp></ReviewComp>
     </div>
-     
+   
   );
 };
 

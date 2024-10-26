@@ -1,8 +1,11 @@
 import React from "react";
 import loginpage from '../Assets/loginpage.jpg'
 import Logo from '../Assets/Logo.png'
+import Navbar from "../Components/Navbar";
 const LoginP = () => {
     return (
+        <>
+        <Navbar/>
         <div className="flex items-center justify-center min-h-screen bg-gray-100 dark:bg-gray-900">
         <div className="flex w-full max-w-sm mx-auto overflow-hidden bg-white rounded-lg shadow-lg dark:bg-gray-800 lg:max-w-4xl">
             <div className="hidden bg-cover lg:block lg:w-1/2" style={{ backgroundImage: `url(${loginpage})` }}></div>
@@ -48,6 +51,7 @@ const LoginP = () => {
                 </div>
             </div>
         </div></div>
+        </>
     );
 };
 

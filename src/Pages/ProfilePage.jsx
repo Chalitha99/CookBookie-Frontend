@@ -1,8 +1,12 @@
+import React from 'react';
 import Sidebar from '../Components/Sidebar';
 import Profile from '../Components/Profile';
+import Navbar from "../Components/Navbar";
 
 export default function ProfilePage() {
   return (
+    <>
+    <Navbar />
     <div className='container-fluid'>
       <div className='row'>
         {/* Sidebar */}
@@ -20,5 +24,8 @@ export default function ProfilePage() {
         </div>
       </div>
     </div>
+    </>
+    
   );
+  
 }

@@ -12,14 +12,14 @@ const Footer = () => {
         <div className="footer-logo-container">
           <img src={Logo} alt="" />
         </div>
-        <div className="footer-icons">
+        <div className="footer-icons flex space-x-4 items-center">
           <BsTwitter />
           <SiLinkedin />
           <BsYoutube />
           <FaFacebookF />
         </div>
       </div>
-      <div className="footer-section-two">
+      <div className="footer-section-two space-x-4">
         <div className="footer-section-columns">
           <span>Contact</span>
           <span>Help</span>
@@ -27,17 +27,19 @@ const Footer = () => {
           <span>Recipes</span>
           <span>Aboutus</span>
         </div>
-        <div className="footer-section-columns">
-          <span>0702677466</span>
-         
-          <span>www.cookbookie.com</span>
-          <span>cookbookie@hotmail.com</span>
-          <span>No 89 ,Badulla</span>
-        </div>
+
         <div className="footer-section-columns">
           <span>Terms & Conditions</span>
           <span>Privacy Policy</span>
         </div>
+
+        <div className="footer-section-columns ">
+          <span>0702677466</span>
+          <span>www.cookbookie.com</span>
+          <span>cookbookie@hotmail.com</span>
+          <span>No 89 ,Badulla</span>
+        </div>
+       
       </div>
     </div>
   );

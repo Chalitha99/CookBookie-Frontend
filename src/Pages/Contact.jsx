@@ -1,11 +1,11 @@
 import React from "react";
-import Navbar from "./Navbar";
+import Navbar from "../Components/Navbar";
 import RecipeBg from "../Assets/recipe_bg.png";
 const Contact = () => {
   return (
 
     <div>
-    <Navbar></Navbar>
+    <Navbar />
     <div className="home-bannerImage-container">
           <img src={RecipeBg} alt="" />
       </div>

@@ -1,11 +1,11 @@
-import { PhotoIcon, UserCircleIcon } from '@heroicons/react/24/solid'
+import React from "react";
 
 export default function Example() {
-  return (
-    <form>
-        <div className="border-b border-gray-900/10 pb-12">
-          <h2 className="text-base font-semibold leading-7 text-gray-900">Personal Information</h2>
-          <div className="mt-10 grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-6">
+ return (
+   <form>
+     <div className="border-b border-gray-900/10 pb-12">
+       <h2 className="text-base font-semibold leading-7 text-gray-900">Personal Information</h2>
+         <div className="mt-10 grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-6">
             <div className="sm:col-span-3">
               <label htmlFor="first-name" className="block text-sm font-medium leading-6 text-gray-900">
                 First name
@@ -51,12 +51,12 @@ export default function Example() {
             </div>
             
             
-          </div>
-        </div>
+     </div>
+</div>
 
 <div className="border-b border-gray-900/10 pb-12">
-          <h2 className="text-base font-semibold leading-7 text-gray-900">Password Change</h2>
-          <div className="mt-10 grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-6">
+   <h2 className="text-base font-semibold leading-7 text-gray-900">Password Change</h2>
+     <div className="mt-10 grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-6">
             <div className="sm:col-span-3">
               <label htmlFor="first-name" className="block text-sm font-medium leading-6 text-gray-900">
                 Current Password
@@ -90,7 +90,7 @@ export default function Example() {
              
             
             
-          </div><div className="mt-6 flex items-center justify-end gap-x-6">
+       </div><div className="mt-6 flex items-center justify-end gap-x-6">
         <button type="button" className="text-sm font-semibold leading-6 text-gray-900">
           Cancel
         </button>
