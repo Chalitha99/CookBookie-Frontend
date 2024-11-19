@@ -11,7 +11,7 @@ export default function SideNavigationBasic() {
       <button
         title="Side navigation"
         type="button"
-        className={`visible fixed left-6 top-6 z-40 order-10 block h-10 w-10 self-center rounded bg-white opacity-100 lg:hidden ${
+        className={`visible fixed left-6 top-6 z-40 order-10 block h-10 w-10 self-center rounded bg-black opacity-100 lg:hidden ${
           isSideNavOpen
             ? "visible opacity-100 [&_span:nth-child(1)]:w-6 [&_span:nth-child(1)]:translate-y-0 [&_span:nth-child(1)]:rotate-45 [&_span:nth-child(3)]:w-0 [&_span:nth-child(2)]:-rotate-45 "
             : ""
@@ -54,7 +54,7 @@ export default function SideNavigationBasic() {
       <img
         src={Logo}
         alt="CookBookie Logo"
-        className="h-8 w-8" 
+        className="h-20 w-20" 
       />
       CookBookie
     </a>
@@ -94,7 +94,7 @@ export default function SideNavigationBasic() {
               </li>
               <li className="px-3">
                 <a
-                  href="#"
+                  href="/profile"
                   className="flex items-center gap-8 rounded p-3 text-slate-700 transition-colors hover:bg-yellow-50 hover:text-yellow-500 focus:bg-yellow-50 aria-[current=page]:bg-yellow-50 aria-[current=page]:text-yellow-500 "
                   aria-current="page"
                 >
@@ -177,18 +177,7 @@ export default function SideNavigationBasic() {
             </ul>
           </div>
         </nav>
-        <footer class="p-3 border-t border-slate-200">
-    <a href="#" class="flex items-center gap-3 p-3 transition-colors rounded text-slate-900 hover:text-yellow-500 ">
-      <div class="flex items-center self-center ">
-        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6" aria-label="Dashboard icon" role="graphics-symbol">
-          <path stroke-linecap="round" stroke-linejoin="round" d="M11.25 9l-3 3m0 0l3 3m-3-3h7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-        </svg>
-      </div>
-      <div class="flex flex-col items-start justify-center flex-1 w-full gap-0 overflow-hidden text-sm font-medium truncate">
-        Logout
-      </div>
-    </a>
-  </footer>
+        
       </aside>
 
       {/*  <!-- Backdrop --> */}

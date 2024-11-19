@@ -2,9 +2,8 @@ import React from "react";
 import BannerBackground from "../Assets/home-banner-background.png";
 import BannerImage from "../Assets/home-banner-image.png";
 import Navbar from "../Components/Navbar";
-import ReviewComp from "../Components/ReviewsComp";
 import { FiArrowRight } from "react-icons/fi";
-
+import About from "../Components/About";
 
 const Home = () => {
   return (
@@ -30,7 +29,7 @@ const Home = () => {
           <img src={BannerImage} alt="" />
         </div>
       </div>
-     <ReviewComp></ReviewComp>
+      <About/>
     </div>
    
   );

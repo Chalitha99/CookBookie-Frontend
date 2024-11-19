@@ -2,11 +2,15 @@ import React from 'react';
 import Sidebar from '../Components/Sidebar';
 import Profile from '../Components/Profile';
 import Navbar from "../Components/Navbar";
+import RecipeBg from "../Assets/recipe_bg2.png";
 
 export default function ProfilePage() {
   return (
     <>
     <Navbar />
+    <div className="home-bannerImage-container">
+          <img src={RecipeBg} alt="" />
+      </div>
     <div className='container-fluid'>
       <div className='row'>
         {/* Sidebar */}

@@ -3,7 +3,7 @@ import uploadMeals from "../Assets/pick-meals-image.png";
 import RecipeBg from "../Assets/recipe_bg.png";
 import RateRecipes from "../Assets/choose-image.png";
 import search from "../Assets/search.png";
-import Navbar from "../Components/Navbar";
+
 const Work = () => {
   const workInfoData = [
     {
@@ -25,10 +25,8 @@ const Work = () => {
   ];
   return (
     <div>
-      <Navbar />
-    <div className="home-bannerImage-container">
-          <img src={RecipeBg} alt="" />
-      </div>
+      
+    
     <div className="work-section-wrapper">
       <div className="work-section-top">
         <p className="primary-subheading">ABOUT</p>
